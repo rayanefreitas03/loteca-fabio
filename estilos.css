@@ -1,1 +1,29 @@
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1, h3{
+    font-size: 5em;
+    font-family: sans-serif;
+    color: rgb(26, 58, 55);
+    letter-spacing: 10px;
+    font-variant: small-caps;
+    margin-bottom: 20px;
 
+}
+h3{ 
+    color: rgb(21, 56, 42);
+    font-size: 2em;
+    margin-bottom: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-variant: normal;
+    margin-top: 10px;
+}
+input{
+    height: 40px;
+    width: 60px;
+    font-size: 2em;
+    text-align: center;
+}
