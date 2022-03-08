@@ -21,9 +21,16 @@ h3{
     font-variant: normal;
     margin-top: 10px;
 }
-input{
-    height: 40px;
-    width: 60px;
-    font-size: 2em;
-    text-align: center;
+.selecao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.selecao > input{
+    width: 2em;
+    font-size: 4em;
+    margin-right: 10px;
+    background-color: rgba(95, 158, 160, 0.637);
+    border: 1px solid black;
+    border-radius: 10px;
 }
